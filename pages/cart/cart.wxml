@@ -1,0 +1,4 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <custom-counter initial="5" />
+</view>

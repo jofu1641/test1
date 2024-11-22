@@ -1,0 +1,23 @@
+/* components/counter/counter.wxss */
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.bu {
+    width: 80rpx;
+    height: 80rpx;
+    background-color: #1aad19;
+    color: white;
+    font-size: 36rpx;
+    border: none;
+    border-radius: 10rpx;
+}
+
+.number {
+    margin: 0 20rpx;
+    font-size: 36rpx;
+    color: #333;
+}

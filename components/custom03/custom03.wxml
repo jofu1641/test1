@@ -1,0 +1,6 @@
+<!-- components/counter/counter.wxml -->
+<view class="counter-container">
+  <button class="bu" bindtap="decrease">-</button>
+  <text class="number">{{num}}</text>
+  <button class="bu" bindtap="increase">+</button>
+</view>

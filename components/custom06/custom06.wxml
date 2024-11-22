@@ -1,0 +1,12 @@
+<!-- counter.wxml -->
+<view class="counter-container">
+    <view class="counter-display">{{count}}</view>
+
+    <view class="button-group">
+        <button class="btn {{isRunning ? 'running' : ''}}" bindtap="{{isRunning ? 'stopCounter' : 'startCounter'}}">
+            {{isRunning ? '暂停' : '开始'}}
+        </button>
+
+        <button class="btn reset" bindtap="resetCounter">重置</button>
+    </view>
+</view>

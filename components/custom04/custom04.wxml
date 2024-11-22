@@ -1,0 +1,12 @@
+<view>{{num}}</view>
+<view>{{obj.name}} {{obj.age}}</view>
+<view>数组内容：{{arr}}</view>
+
+<!-- 按钮：更新 num -->
+<button type="warn" plain bindtap="update">Update Num</button>
+
+<!-- 按钮：修改 obj -->
+<button type="warn" plain bind:tap="updateObj">Update Obj</button>
+
+<!-- 按钮：修改数组 -->
+<button type="warn" plain bind:tap="updateArray">Update Array</button>

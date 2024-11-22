@@ -1,0 +1,15 @@
+<button type="primary" size="mini" plain bindtap="setStorage">
+    存储
+</button>
+
+<button type="primary" size="mini" plain bindtap="getStorage">
+    获取
+</button>
+
+<button type="warn" size="mini" plain bindtap="removeStorage">
+    删除
+</button>
+
+<button type="warn" size="mini" plain bindtap="clearStorage">
+    移除
+</button>

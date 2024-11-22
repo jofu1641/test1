@@ -1,0 +1,7 @@
+<custom-checkbox label="我已阅读并同意 用户协议 和 隐私协议" position="right" checked="{{isChecked}}" class="child" id="child" bind:changechecked="getData">
+    我已阅读并同意 用户协议 和 隐私协议 - 111
+</custom-checkbox>
+
+<button type="primary" plain bindtap="getChild">
+    获取子组件实例对象
+</button>

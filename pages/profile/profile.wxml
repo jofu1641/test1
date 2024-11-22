@@ -1,0 +1,4 @@
+<!-- pages/index/index.wxml -->
+<view>
+  <custom06></custom06>
+</view>

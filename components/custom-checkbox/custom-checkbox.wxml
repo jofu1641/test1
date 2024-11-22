@@ -1,0 +1,6 @@
+<view class="checkbox-wrapper">
+    <view class="checkbox" bindtap="toggleCheckbox">
+        <view class="checkbox-inner {{isChecked ? 'checked' : ''}}"></view>
+    </view>
+    <view class="label">{{label}}</view>
+</view>
